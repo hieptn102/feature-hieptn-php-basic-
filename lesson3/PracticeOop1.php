@@ -55,9 +55,9 @@
     $cVS=$object1->checkValidString("$str");
     $object1->Check1=$cVS;
     echo "<br>";
-    $str = $object1->readFile("file2.txt");
+    $str = $object2->readFile("file2.txt");
     echo"Chuỗi 2 => ";
-    $cVS=$object1->checkValidString("$str");
+    $cVS=$object2->checkValidString("$str");
     echo "<br>";
 
     if($object1->Check1==true){
