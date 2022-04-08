@@ -42,7 +42,7 @@
             }
         }
         function writeFile($textw){
-            $myfile = fopen("result_file.txt", "a") or die("Unable to open file!");
+            $myfile = fopen("result_file.txt", "w") or die("Unable to open file!");
             $txt = "$textw ||";
             fwrite($myfile, $txt);
             fclose($myfile);
